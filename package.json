@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "make-model": "npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string",
+    "migrate":"npx sequelize-cli db:migrate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
