@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "decagon",
+    "password": null,
+    "database": "myFirstDB",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "decagon",
+    "password": null,
+    "database": "myFirstDB",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "decagon",
+    "password": null,
+    "database": "myFirstDB",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
